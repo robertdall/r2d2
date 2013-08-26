@@ -58,6 +58,12 @@ Wood Photo - http://www.flickr.com/photos/kk/3902812236/
 License: CC BY-SA 2.0 
 copyright: Kris Krug, http://www.kriskrug.com/
 
+== GitHub == 
+
+Fork this theme or push changes via Github 
+https://github.com/robertdall/r2d2
+
+
 == Changelog ==
 
 
