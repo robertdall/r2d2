@@ -51,12 +51,9 @@ R2D2 WordPress theme is licensed under the GPL v2.0.
 == Photography Credits ==
 
 Cubism Photo - ​http://robertdall.com
-License: CC BY-SA 2.0
+License: CC0 - Public Domain
 Copyright: Robert Dall, http://robertdall.com
 
-Wood Photo - http://www.flickr.com/photos/kk/3902812236/
-License: CC BY-SA 2.0 
-copyright: Kris Krug, http://www.kriskrug.com/
 
 == GitHub == 
 
@@ -73,4 +70,8 @@ https://github.com/robertdall/r2d2
 = 1.1 =
 * Added proper credits to photographers header images
 * Added short code to theme for call to action button
-* Replaced content-image.php and content-video.php to remove regressed post format code  
+* Replaced content-image.php and content-video.php to remove regressed post format code
+
+= 1.1.1 =
+* Changed License to CC0 - Public Domain for Cubism photo
+* Removed Wood photo as it didn't have proper license
