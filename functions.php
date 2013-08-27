@@ -45,6 +45,11 @@ function r2d2_custom_header_setup() {
 			'thumbnail_url' => '%2$s/images/headers/cubism-thumbnail.png',
 			'description'   => _x( 'Cubism', 'header image description', 'r2d2' )
 		),
+		'wood' => array(
+			'url'           => '%2$s/images/headers/wood.png',
+			'thumbnail_url' => '%2$s/images/headers/wood-thumbnail.png',
+			'description'   => _x( 'Wood', 'header image description', 'r2d2' )
+		),
 	) );
 
 	add_action( 'admin_print_styles-appearance_page_custom-header', 'twentythirteen_custom_header_fonts' );
