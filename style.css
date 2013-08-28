@@ -333,6 +333,7 @@ button, input[type="submit"], input[type="button"], input[type="reset"] {
 	line-height:50px;
 	text-decoration:none;
 	text-align:center;
+	margin: 0 5px;
 	padding:0px 15px;
 }
 
