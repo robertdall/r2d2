@@ -75,3 +75,8 @@ https://github.com/robertdall/r2d2
 = 1.1.1 =
 * Changed License to CC0 - Public Domain for Cubism photo
 * Removed Wood photo as it didn't have proper license
+
+= 1.1.2 = 
+* Added Margin to Button
+* Added tags: dark, fexible-width, custom-header 
+* Removed tags: Custom Background
