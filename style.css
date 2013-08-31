@@ -1,35 +1,32 @@
 /*
 Theme Name: r2d2
 Theme URI: http://robertdall.com/r2d2-theme/
-Description: R2D2 is a child theme of the beautiful Twenty Thirteen. The twenty thirteen brings WordPress default theme back to blogging. While I adore the typography and it's responsive design I needed something darker and to keep the post titles above the content.
+Description: R2D2 is a child theme of the beautiful Twenty Thirteen. The Twenty Thirteen brings WordPress default theme back to blogging. While I adore the typography and it's responsive design I needed something darker and to keep the post titles above the content.
 Author: Robert Dall
 Author URI: http://www.robertdall.com
 Template: twentythirteen
-Version: 1.1.1
+Version: 1.1.2
 
 
 Version: 2.4.2
 License: GNU General Public License
 License URI: license.txt
-Tags: black, orange, custom-menu, custom-colors, featured-images, editor-style, post-formats, threaded-comments, sticky-post, rtl-language-support,
+Tags: black, orange, dark, custom-menu, custom-colors, custom-header, featured-images, flexible-width, editor-style, post-formats, threaded-comments, sticky-post, rtl-language-support
 */
 
 /* Imports */
 @import url("../twentythirteen/style.css");
-
 
 body {
 	color: #E7DED4; /* Text Color */
 	background: #2A1600; /* Default Background of the browser beyond 2200px */
 }
 
-
 .site {
 	background-color: #2A1600; /* Default Background of the site */
 	max-width: 2200px;
 	border-left: 0px solid #F2F2F2 !important;
-    border-right: 0px solid #F2F2F2 !important;
-	
+    border-right: 0px solid #F2F2F2 !important;	
 }
 
 
@@ -43,7 +40,6 @@ body {
     line-height: 1;
     margin: 0;
     padding: 58px 0 10px;
-    
 }
 
 .site-description {
@@ -156,10 +152,10 @@ del {
     font-style: italic;
 }
 
-
 ul.nav-menu ul a:hover, .nav-menu ul ul a:hover {
     background-color: #AF7556;
 }
+
 
 /* Image Captions style
 -------------------------------------------------------------- */
@@ -174,7 +170,6 @@ ul.nav-menu ul a:hover, .nav-menu ul ul a:hover {
 
 .wp-caption img {
 }
-
 
 body.single p.single-excerpt-caption {
 	margin: 0 0 0 3%;
@@ -230,7 +225,6 @@ body.single p.single-excerpt-caption a:hover {
 	color: #000;
 }
 
-
 /* Footer Sidebar */
 
 .site-footer .widget a {
@@ -240,11 +234,9 @@ body.single p.single-excerpt-caption a:hover {
 .site-footer .widget a:hover {
     color: #5B66A5;
 	text-decoration: underline;
-
 }
 
 /* Author note: Even though it is in the footer it is still a widget */
-
 
 
 /* Archive & Category Headers
@@ -313,9 +305,7 @@ button, input[type="submit"], input[type="button"], input[type="reset"] {
     text-decoration: none;
 }
 
-
 /* Buttons */ 
-
 
 .r2d2-button {
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #e05e22), color-stop(1, #d94412) );
@@ -350,15 +340,12 @@ button, input[type="submit"], input[type="button"], input[type="reset"] {
 }
 
 
-
-
 /* Attachment Page
 -------------------------------------------------------------- */
 
 .attachment .hentry {
     background-color: #2A1600;
 }
-
 
 .image-attachment .entry-content {
 	background-color: #000000;
