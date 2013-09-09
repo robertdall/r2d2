@@ -22,6 +22,19 @@ Twenty Thirteen colours don't conform to child theme colours
     background-color: #fff;
 }
 
+
+.post-format-aside,
+.post-format-audio,
+.post-format-chat,
+.post-format-gallery,
+.post-format-image,
+.post-format-link,
+.post-format-quote,
+.post-format-status,
+.post-format-video {
+	color: #141412;
+}
+
 /**
  * 4.0 Links
  * ----------------------------------------------------------------------------
