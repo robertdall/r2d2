@@ -54,6 +54,10 @@ Cubism Photo - ​http://robertdall.com
 License: CC0 - Public Domain
 Copyright: Robert Dall, http://robertdall.com
 
+Wood Photo - http://kriskrug.com/
+License: CC0 - Public Domain
+Copyright: Kris Krug, http://kriskrug.com/
+
 
 == GitHub == 
 
@@ -84,3 +88,7 @@ https://github.com/robertdall/r2d2
 = 1.1.4 = 
 * Change text editor colour for status and quote post formats 
 * adds colour to quotes in post format quote
+
+= 1.1.5 = 
+* Addition of the Wood photo by Kris Krug with proper license
+* Fixes style bug in menu-toggle for mobile view
