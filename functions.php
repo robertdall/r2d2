@@ -71,3 +71,20 @@ function r2d2Button($atts, $content = null) {
 }
 
 add_shortcode('button', 'r2d2Button');
+
+
+// Hide Email from Spam Bots using antispam bot http://codex.wordpress.org/Function_Reference/antispambot
+
+function r2d2hidemail($atts , $content = null ){
+	if ( ! is_email ($content) )
+		return;
+
+	return '<a href="mailto:'.antispambot($content).'">'.antispambot($content).'</a>';
+}
+add_shortcode( 'email','r2d2hidemail');
+
+
+// Do Short Code in Widgets 
+
+add_filter( 'widget_text', 'shortcode_unautop');
+add_filter('widget_text', 'do_shortcode');

@@ -414,27 +414,26 @@ footer.entry-meta a:hover {
 /*   Specific Post Format Style 
 -------------------------------------------------------------- */
 
-.format-status .entry-content .page-links a, 
-.format-gallery .entry-content .page-links a, 
-.format-chat .entry-content .page-links a, 
-.format-quote .entry-content .page-links a, 
-.page-links a {
-    background: none repeat scroll 0 0 #AF7556;
+
+.format-status .entry-content a, 
+.format-gallery .entry-content a, 
+.format-chat .entry-content a, 
+.format-quote .entry-content a {
     border: 0px;
-    color: #000;
+    color: #5C6BCD;
 }
 
-.format-gallery .entry-content .page-links a:hover, 
-.format-audio .entry-content .page-links a:hover, 
-.format-status .entry-content .page-links a:hover, 
-.format-video .entry-content .page-links a:hover, 
-.format-chat .entry-content .page-links a:hover, 
-.format-quote .entry-content .page-links a:hover, 
-.page-links a:hover {
-	background: none repeat scroll 0 0 #5C6BCD;
+.format-gallery .entry-content a:hover, 
+.format-audio .entry-content a:hover, 
+.format-status .entry-content a:hover, 
+.format-video .entry-content a:hover, 
+.format-chat .entry-content a:hover, 
+.format-quote .entry-content a:hover {
+    color: #5C6BCD !important;
+    text-decoration: underline;
     border: 0px;
-    color: #2A1600;
 }
+
 
 /* The above styles apply to all post formats */
 
@@ -521,8 +520,12 @@ article.format-image .entry-media img {
 
 /* Formats Asides */
 
+.format-aside {
+    background-color:#5C3820;
+}
+
 .format-aside .entry-content p {
-	color: #141412;
+	color: #E7DED4;
 }
 
 .format-aside .entry-content .date a {
