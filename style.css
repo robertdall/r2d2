@@ -5,7 +5,7 @@ Description: R2D2 is a child theme of the beautiful Twenty Thirteen. The Twenty 
 Author: Robert Dall
 Author URI: http://www.robertdall.com
 Template: twentythirteen
-Version: 1.1.6
+Version: 1.1.7
 
 
 Version: 2.4.2
@@ -71,7 +71,17 @@ body {
     margin: 10px auto;
     max-width: 645px;
     width: 100%;
-}    
+}
+
+.entry-meta a {
+	color: #5B66A5;
+}
+
+.entry-meta a:hover {
+	color: #5C6BCD;
+	text-decoration: underline;
+
+}
     
 .entry-title a {
     color: #AF7556;
@@ -414,6 +424,7 @@ footer.entry-meta a:hover {
 /*   Specific Post Format Style 
 -------------------------------------------------------------- */
 
+
 .format-status .entry-content a, 
 .format-gallery .entry-content a, 
 .format-chat .entry-content a, 
@@ -471,6 +482,11 @@ article.format-image .entry-media img {
 
 /* Formats Quote */
 
+
+.format-quote blockquote:before {
+	color: #AF7556;
+}
+
 .format-quote .quote:before {
 	color: #AF7556;
 }
@@ -496,7 +512,7 @@ article.format-image .entry-media img {
 }
 
 .format-quote .entry-meta a {
-    color: #5C6BCD;
+    color: #5B66A5;
 }
 
 .format-quote .entry-content a:hover {
@@ -513,7 +529,8 @@ article.format-image .entry-media img {
 	color: #E7DED4;	
 }
 
-.format-gallery .entry-meta a, .format-gallery .entry-content a {
+.format-gallery .entry-meta a, 
+.format-gallery .entry-content a {
     color: #6B75AE;
 }
 
