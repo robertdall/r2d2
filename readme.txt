@@ -7,7 +7,6 @@ Child-Theme of Twenty Thirteen
 
 == Description ===
 
-
 The Twenty Thirteen is the edge bold new theme from the WordPress.org team. 
 
 When I first saw Twenty Thirteen is immediately was attracted to it. But I knew I wanted to make a few changes to the theme. 
@@ -27,7 +26,9 @@ Here is a list of a couple changes I made:
 • Added two headers images from Vancouver to compliment the darker theme.
 
 
-== Short Code ==
+== Short Codes ==
+
+[button]
 
 You can make use of the built-in call to action button via the short code. 
 
@@ -35,12 +36,40 @@ Example:
 
 [button href="http://example.com/" ] Example Text [button]  
 
+[email]
+
+You can wrap your email address to hide it from the spammers but allow humans to use it.
+
+Example: [email]john.doe@mysite.com[/email]
+
+This short code uses the WordPress Function Reference/antispambot
+
+http://codex.wordpress.org/index.php?title=antispambot
+
 
 == Credits ==
 
 [Twenty Thirteen](http://wordpress.org/themes/twentythirteen) theme by Automattic and released under the GPL v2.0.
 
-Thanks to Lance Willet, Konstantin Obenland, Jaffe Worley, Samuel Wood (Otto), Flynn O'Connor, Christine Rondeau, Morten Rand-Hendriksen and Nicolas Duvieusart Déry for there code suggestions and review.  
+== Thanks == 
+
+Twenty Thirteen Lead Developers (For making a great theme):
+• Lance Willet
+• Konstantin Obenland
+• Joen Asmussen
+
+
+R2D2 Theme Reviewers: 
+• Jaffe Worley
+• Samuel Wood (Otto42)
+• Morten Rand-Hendriksen
+• Christine Rondeau
+
+
+R2D2 Code Suggestions and/or Improvements: 
+• Nicolas Duvieusart Déry
+• Flynn O'Connor
+• Wes Koopmans
 
 == License == 
 
@@ -67,7 +96,6 @@ https://github.com/robertdall/r2d2
 
 == Changelog ==
 
-
 = 1.0 =
 * Initial Submission to the WordPress Theme Repository
 
@@ -92,3 +120,8 @@ https://github.com/robertdall/r2d2
 = 1.1.5 = 
 * Addition of the Wood photo by Kris Krug with proper license
 * Fixes style bug in menu-toggle for mobile view
+
+= 1.1.6 =
+* Fixed style bug caused but update of Twenty-Thirteen
+* Added new background colour to the aside post format
+* Adds short code for user email to be hidden from the spambots
