@@ -25,28 +25,6 @@ Here is a list of a couple changes I made:
 • The background colours of the post formats in the editor has been disabled as they aren't the colours used in this child theme and those colours would be to dark for the current editor.
 • Added two headers images from Vancouver to compliment the darker theme.
 
-
-== Short Codes ==
-
-[button]
-
-You can make use of the built-in call to action button via the short code. 
-
-Example: 
-
-[button href="http://example.com/" ] Example Text [button]  
-
-[email]
-
-You can wrap your email address to hide it from the spammers but allow humans to use it.
-
-Example: [email]john.doe@mysite.com[/email]
-
-This short code uses the WordPress Function Reference/antispambot
-
-http://codex.wordpress.org/index.php?title=antispambot
-
-
 == Credits ==
 
 [Twenty Thirteen](http://wordpress.org/themes/twentythirteen) theme by Automattic and released under the GPL v2.0.
@@ -121,7 +99,9 @@ https://github.com/robertdall/r2d2
 * Addition of the Wood photo by Kris Krug with proper license
 * Fixes style bug in menu-toggle for mobile view
 
-= 1.1.6 =
+= 1.1.7 =
 * Fixed style bug caused but update of Twenty-Thirteen
 * Added new background colour to the aside post format
-* Adds short code for user email to be hidden from the spambots
+* Fixes colour of edit button in entry meta
+
+
