@@ -56,35 +56,3 @@ function r2d2_custom_header_setup() {
 
 }
 add_action( 'after_setup_theme', 'r2d2_custom_header_setup' );
-
-
-// Short Code Button
-
-function r2d2Button($atts, $content = null) {
-	extract(shortcode_atts(array(
-		"href" => 'http://'
-		), $atts));
-
-    	return '<a href="'.$href.'"><span class="r2d2-button">'
-    		. $content .
-    		'</span></a>';
-}
-
-add_shortcode('button', 'r2d2Button');
-
-
-// Hide Email from Spam Bots using antispam bot http://codex.wordpress.org/Function_Reference/antispambot
-
-function r2d2hidemail($atts , $content = null ){
-	if ( ! is_email ($content) )
-		return;
-
-	return '<a href="mailto:'.antispambot($content).'">'.antispambot($content).'</a>';
-}
-add_shortcode( 'email','r2d2hidemail');
-
-
-// Do Short Code in Widgets 
-
-add_filter( 'widget_text', 'shortcode_unautop');
-add_filter('widget_text', 'do_shortcode');
