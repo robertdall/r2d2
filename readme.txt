@@ -60,13 +60,13 @@ Twenty Thirteen Lead Developers (For making a great theme):
 
 
 R2D2 Theme Reviewers: 
-• Jaffe Worley
 • Samuel Wood (Otto42)
 • Morten Rand-Hendriksen
 • Christine Rondeau
 
 
-R2D2 Code Suggestions and/or Improvements: 
+R2D2 theme code contributors or helpful debuggers: 
+• Jaffe Worley
 • Nicolas Duvieusart Déry
 • Flynn O'Connor
 • Wes Koopmans
