@@ -1,6 +1,6 @@
 === R2D2 ===
 Contributor: Robert Dall
-Tested up to 3.6
+Tested up to 4.0
 
 Child-Theme of Twenty Thirteen
 
