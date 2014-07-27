@@ -45,6 +45,18 @@ a {
 	text-decoration: none;
 }
 
+.post-format-aside a,
+.post-format-audio a,
+.post-format-chat a,
+.post-format-gallery a,
+.post-format-image a,
+.post-format-link a,
+.post-format-quote a,
+.post-format-status a,
+.post-format-video a {
+	color: #5465c5;
+}
+
 a:visited {
 	color: #6B75AE;
 }
@@ -57,9 +69,5 @@ a:active,
 a:hover {
 	color: #5465c5;
 	outline: 0;
-}
-
-a:hover {
 	text-decoration: underline;
 }
-
