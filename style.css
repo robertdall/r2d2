@@ -1,17 +1,11 @@
 /*
-Theme Name: r2d2
-Theme URI: http://robertdall.com/r2d2-theme/
-Description: R2D2 is a child theme of the beautiful Twenty Thirteen. The Twenty Thirteen brings WordPress default theme back to blogging. While I adore the typography and it's responsive design I needed something darker and to keep the post titles above the content.
+Theme Name: Mantel
+Theme URI: http://robertdall.com/
+Description: Specialized theme for Mantel Automotive and a version of the R2D2 which is a child theme of the beautiful Twenty Thirteen. The Twenty Thirteen brings WordPress default theme back to blogging. While I adore the typography and it's responsive design I needed something darker and to keep the post titles above the content.
 Author: Robert Dall
 Author URI: http://www.robertdall.com
 Template: twentythirteen
-Version: 1.1.8
-
-
-Version: 2.4.2
-License: GNU General Public License
-License URI: license.txt
-Tags: black, orange, dark, custom-menu, custom-colors, custom-header, featured-images, flexible-width, editor-style, post-formats, threaded-comments, sticky-post, rtl-language-support
+Version: 1.0
 */
 
 /* Imports */
@@ -323,7 +317,7 @@ button, input[type="submit"], input[type="button"], input[type="reset"] {
 
 /* Buttons */ 
 
-.r2d2-button {
+.mantel-button {
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #e05e22), color-stop(1, #d94412) );
 	background:-moz-linear-gradient( center top, #e05e22 5%, #d94412 100% );
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e05e22', endColorstr='#d94412');
@@ -343,14 +337,14 @@ button, input[type="submit"], input[type="button"], input[type="reset"] {
 	padding:0px 15px;
 }
 
-.r2d2-button:hover {
+.mantel-button:hover {
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #d94412), color-stop(1, #e05e22) );
 	background:-moz-linear-gradient( center top, #d94412 5%, #e05e22 100% );
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d94412', endColorstr='#e05e22');
 	background-color:#d94412;
 }
 
-.r2d2-button:active {
+.mantel-button:active {
 	position:relative;
 	top:1px;
 }

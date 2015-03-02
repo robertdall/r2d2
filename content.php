@@ -6,7 +6,7 @@
  * @subpackage Twenty_Thirteen
  * @since Twenty Thirteen 1.0
  * 
- * Template file is part of child theme: r2d2
+ * Template file is part of child theme: mantel
  * 
  */
 ?>

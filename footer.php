@@ -20,7 +20,7 @@
 				<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'twentythirteen' ) ); ?>" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentythirteen' ); ?>"><?php printf( __( '<p>Proudly powered by %s', 'twentythirteen' ), 'WordPress' ); ?></a>
 				
 				<span class="sep"> | </span>
-			<?php printf( __( 'R2D2 is a child Theme of  %1$s by %2$s', 'twentythirteen' ), 'Twenty Thirteen', '<a href="http://robertdall.com" rel="designer">Robert Dall</a>.</p>' ); ?>
+			<?php printf( __( 'Mantel is a specialized child Theme of  %1$s by %2$s', 'twentythirteen' ), 'Twenty Thirteen', '<a href="http://robertdall.com" rel="designer">Robert Dall</a>.</p>' ); ?>
 				
 			</div><!-- .site-info -->
 		</footer><!-- #colophon -->
