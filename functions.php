@@ -12,6 +12,12 @@ function mantel_add_editor_styles() {
 }
 add_action( 'init', 'mantel_add_editor_styles' );
 
+function mantel_dequeue_fonts() {
+         wp_dequeue_style( 'twentythirteen-fonts' );
+      }
+
+add_action( 'wp_enqueue_scripts', 'mantel_dequeue_fonts', 11 );
+
 remove_action ('after_setup_theme', 'twentythirteen_custom_header_setup' );
 
 function mantel_custom_header_setup() {
