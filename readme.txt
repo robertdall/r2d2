@@ -104,8 +104,11 @@ https://github.com/robertdall/r2d2
 * Added new background colour to the aside post format
 * Fixes colour of edit button in entry meta
 
-= 1.1.8 = 
-* Fixed style bug that added margin to the post format status
+= 1.1.8 =
+* Fixed style bug that added margin to the post format status
 * Fixed style bug in the post format chat editor style colour
+
+= 1.1.9 = 
+* Replaces accidentally deleted r2d2-editor-style.css file. 
 
 
