@@ -5,7 +5,7 @@ Description: R2D2 is a child theme of the beautiful Twenty Thirteen. The Twenty 
 Author: Robert Dall
 Author URI: http://www.robertdall.com
 Template: twentythirteen
-Version: 1.1.9
+Version: 1.2
 
 
 Version: 2.4.2
@@ -65,7 +65,7 @@ body {
     margin: 0 auto;
     max-width: 645px;
     width: 100%;
-    }
+}
     
 .entry-meta {
     margin: 10px auto;
@@ -80,7 +80,6 @@ body {
 .entry-meta a:hover {
 	color: #5C6BCD;
 	text-decoration: underline;
-
 }
     
 .entry-title a {
@@ -145,7 +144,6 @@ body {
 del {
     color: #A19587;
 }
-
 
 /* Navigation Bar Style 
 -------------------------------------------------------------- */
@@ -380,6 +378,12 @@ button, input[type="submit"], input[type="button"], input[type="reset"] {
     max-width: 700px;
 }
 
+.attachment .entry-meta a, 
+.attachment .entry-meta .edit-link::before, 
+.attachment .full-size-link::before {
+	color: #6b75ae;
+}
+
 
 /* Footer Style
 -------------------------------------------------------------- */
@@ -418,6 +422,22 @@ footer.entry-meta a:hover {
 
 .error404 .page-wrapper {
     background-color: #2A1600;
+}
+
+
+/* Search Page Style
+-------------------------------------------------------------- */
+
+.search-results a.more-link {
+	color: #5b66a5;
+}
+
+.search-results p a {
+	color: #5b66a5;
+}
+
+.search-results p a:hover {
+	text-decoration: underline;
 }
 
 
@@ -616,4 +636,219 @@ article.format-image .entry-media img {
 
 .format-gallery {
     background-color: #000;
+}
+
+/* WooCommerce Style
+-------------------------------------------------------------- */
+/* Add to Cart Button */
+
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+		background: transparent linear-gradient(to bottom, #e05d22 0%, #d94412 100%);
+}
+
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
+	background: transparent linear-gradient(to bottom, #d94412 0%, #e05d22 100%);
+}
+
+/* Puts Sku and category on different lines */
+
+.woocommerce .product_meta .sku_wrapper, .product_meta .posted_in {
+    border-bottom: 0.02em none;
+    display: block;
+}
+
+/* Drop Down Select */
+.woocommerce select {
+    background: #2a1600 none repeat scroll 0 0;
+    border: 1px solid #b1b3b2;
+		color: #e7ded4;
+}
+
+.woocommerce button, input, select, textarea {
+		color: #000;
+}
+
+/* Quantity Input */
+.woocommerce .quantity .qty {
+	background: #2a1600 none repeat scroll 0 0;
+	border: 1px solid #b1b3b2;
+}
+
+/*
+.woocommerce .single_add_to_cart_button {
+		linear-gradient: bottom, #ed6a31 0%, #e55627 100%;
+}
+*/
+/* Product Description & Additional Info & Reviews */
+.woocommerce div.product .woocommerce-tabs ul.tabs li,
+.woocommerce #content div.product .woocommerce-tabs ul.tabs li,
+.woocommerce-page div.product .woocommerce-tabs ul.tabs li,
+.woocommerce-page #content div.product .woocommerce-tabs ul.tabs li {
+    border-color: #232120;
+    color: #F8F8F8;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.6);
+    /* background gradients */
+   	background-color: #AF7556;
+}
+
+/* Product Tabs Border Bottom */
+.woocommerce div.product .woocommerce-tabs ul.tabs:before,
+.woocommerce #content div.product .woocommerce-tabs ul.tabs:before,
+.woocommerce-page div.product .woocommerce-tabs ul.tabs:before,
+.woocommerce-page #content div.product .woocommerce-tabs ul.tabs:before {
+    border-bottom: 2px solid #AF7556;
+    bottom: 0;
+    content: " ";
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+/* Tabs active colour */
+.woocommerce #content div.product .woocommerce-tabs ul.tabs li.active {
+    border-color: #2A1600;
+    color: #1A4C68;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
+		background-color: #DAB28A;
+}
+
+/* Text Colour in Tabs */
+.woocommerce div.product .woocommerce-tabs ul.tabs li a,
+.woocommerce #content div.product .woocommerce-tabs ul.tabs li a,
+.woocommerce-page div.product .woocommerce-tabs ul.tabs li a,
+.woocommerce-page #content div.product .woocommerce-tabs ul.tabs li a {
+    color: #F8F8F8;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.6);
+}
+
+/* Text Hover in Tabs */
+.woocommerce div.product .woocommerce-tabs ul.tabs li a:hover,
+.woocommerce #content div.product .woocommerce-tabs ul.tabs li a:hover,
+.woocommerce-page div.product .woocommerce-tabs ul.tabs li a:hover,
+.woocommerce-page #content div.product .woocommerce-tabs ul.tabs li a:hover {
+	color: #F8F8F8;
+	text-decoration: underline;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.6);
+}
+
+/* Hides Tab Flares */
+.woocommerce div.product .woocommerce-tabs ul.tabs li:before,
+.woocommerce div.product .woocommerce-tabs ul.tabs li:after,
+.woocommerce #content div.product .woocommerce-tabs ul.tabs li:before,
+.woocommerce #content div.product .woocommerce-tabs ul.tabs li:after,
+.woocommerce-page div.product .woocommerce-tabs ul.tabs li:before,
+.woocommerce-page div.product .woocommerce-tabs ul.tabs li:after,
+.woocommerce-page #content div.product .woocommerce-tabs ul.tabs li:before,
+.woocommerce-page #content div.product .woocommerce-tabs ul.tabs li:after {
+	display: none;
+}
+
+.woocommerce div.product .woocommerce-tabs .alt {
+	display: none !important;
+}
+
+/* Hides Additional Information Tab */
+.woocommerce #content div.product .woocommerce-tabs .additional_information_tab {
+	display: none !important;
+}
+
+/* Hides Product Detail Title */
+.woocommerce #content div.product .woocommerce-tabs div#tab-description.panel h2 {
+	display: none !important;
+}
+
+/* Plus & Minus Quantity arrows */
+.woocommerce .quantity .plus, .woocommerce .quantity .minus, .woocommerce-page .quantity .plus, .woocommerce-page .quantity .minus {
+	background-color: #E7DED4;
+}
+
+/* Plus & Minus Quantity arrows */
+.woocommerce .quantity .plus:hover,
+.woocommerce .quantity .minus:hover,
+.woocommerce #content .quantity .plus:hover,
+.woocommerce #content .quantity .minus:hover,
+.woocommerce-page .quantity .plus:hover,
+.woocommerce-page .quantity .minus:hover,
+.woocommerce-page #content .quantity .plus:hover,
+.woocommerce-page #content .quantity .minus:hover {
+	background-color: #DAB28A;
+}
+
+/* Quantity Text Input Field */
+.woocommerce .quantity input.qty,
+.woocommerce-page .quantity input.qty {
+ color: #E7DED4;
+}
+
+/* Input submit button */
+
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button {
+	background-color: #e7ded4;
+	font-weight: normal;
+}
+
+.woocommerce #respond input#submit:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button:hover {
+	background-color: #DAB28A;
+}
+
+/* WooCommerce Alert Message */
+.woocommerce .woocommerce-error,
+.woocommerce .woocommerce-info,
+.woocommerce .woocommerce-message {
+	border-top-color: #dab28a;
+	background-color: #f7f5e7;
+}
+/* WooCommerce Alert Message View Cart Button */
+.woocommerce .woocommerce-message a.button {
+		font-weight: normal;
+		background-color: #dab28a;
+}
+
+/* WooCommerce Coupon Input */
+.woocommerce #content table.cart td.actions .input-text,
+.woocommerce table.cart td.actions .input-text,
+.woocommerce-page #content table.cart td.actions .input-text,
+.woocommerce-page table.cart td.actions .input-text {
+		width: 120px;
+		height: 40px;
+}
+
+/* Size of Font in the View Cart Table */
+.woocommerce table.shop_table {
+		font-size: 18px;
+}
+
+/* Thumbnail of Product Image in View Cart Table */
+#add_payment_method table.cart img,
+.woocommerce-cart table.cart img,
+.woocommerce-checkout table.cart img {
+	width: 70px;
+}
+
+/* WooCommerce Payment Window */
+#add_payment_method #payment,
+.woocommerce-cart #payment,
+.woocommerce-checkout #payment {
+	background-color: #e7ded4;
+}
+
+/* WooCommerce Payment Window PayPal Note */
+#add_payment_method #payment div.payment_box, .woocommerce-cart #payment div.payment_box, .woocommerce-checkout #payment div.payment_box {
+	background-color: #DAB28A;
+}
+
+/* Arrow pointing to PayPal */
+#add_payment_method #payment div.payment_box::before, .woocommerce-cart #payment div.payment_box::before, .woocommerce-checkout #payment div.payment_box::before {
+	border-color: transparent transparent #dab28a;
+}
+
+.woocommerce form.checkout.woocommerce-checkout div#order_review.woocommerce-checkout-review-order div#payment.woocommerce-checkout-payment ul.wc_payment_methods.payment_methods.methods li label {
+		color: #000000;
 }

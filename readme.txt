@@ -1,6 +1,6 @@
 === R2D2 ===
 Contributor: Robert Dall
-Tested up to 4.0
+Tested up to 4.8
 
 Child-Theme of Twenty Thirteen
 
@@ -24,6 +24,7 @@ Here is a list of a couple changes I made:
 • Feature Image in single post shows caption if one is put in.
 • The background colours of the post formats in the editor has been disabled as they aren't the colours used in this child theme and those colours would be to dark for the current editor.
 • Added two headers images from Vancouver to compliment the darker theme.
+• Added colour and style for WooCommerce Integration
 
 == Credits ==
 
@@ -111,4 +112,5 @@ https://github.com/robertdall/r2d2
 = 1.1.9 = 
 * Replaces accidentally deleted r2d2-editor-style.css file. 
 
-
+= 1.2 = 
+* Add Colour and Style for WooCommerce Integration.
